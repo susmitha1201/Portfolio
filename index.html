@@ -1,283 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Susmitha Yarramsetti | IT Engineer</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Susmitha Yarramsetti | Web Dev & Data</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
-    <div class="container">
-        <!-- Sidebar Navigation -->
-        <aside class="sidebar">
-            <div class="profile-card">
-                <img src="assets/profile.jpg" alt="Susmitha Yarramsetti" class="profile-img">
-                <h1>Susmitha Yarramsetti</h1>
-                <p class="tagline">Information Technology Engineer</p>
-                <div class="contact-info">
-                    <p><i class="fas fa-envelope"></i> susmithayarramsetti321@gmail.com</p>
-                    <p><i class="fas fa-phone"></i> (+91) 9177334729</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
-                </div>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/susmitha-yarramsetti-7a8573259/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/susmitha1201" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile-card">
+        <img src="profile.png" alt="Susmitha Yarramsetti" class="profile-img"/>
+        <h1>Susmitha Yarramsetti</h1>
+        <p class="tagline">Web Development & Data</p>
+
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> susmithayarramsetti321@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +91 9177334729</p>
+          <p><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/susmitha-yarramsetti-7a8573259/" target="_blank" rel="noopener"
+             aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/susmitha1201" target="_blank" rel="noopener"
+             aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home" class="nav-link active"><span></span> Home</a></li>
+          <li><a href="#about" class="nav-link"><span></span> About</a></li>
+          <li><a href="#skills" class="nav-link"><span></span> Skills</a></li>
+          <li><a href="#projects" class="nav-link"><span></span> Projects</a></li>
+          <li><a href="#experience" class="nav-link"><span></span> Experience</a></li>
+          <li><a href="#education" class="nav-link"><span></span> Education</a></li>
+          <li><a href="#certs" class="nav-link"><span></span> Certifications</a></li>
+          <li><a href="#contact" class="nav-link"><span></span> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <p>&copy; <span id="current-year"></span> Susmitha Yarramsetti</p>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main-content">
+      <!-- Hero -->
+      <section id="home" class="section active">
+        <div class="hero">
+          <div class="hero-overlay"></div>
+
+          <!-- optional quick links rail -->
+       
+
+          <div class="hero-inner">
+            <h1 class="hero-name">Susmitha Yarramsetti</h1>
+            <p class="hero-subtitle">
+              <span class="accent">PWC Launchpad Mentee'25 | Intern At SaralTech | BVRITH'2026</span>
+            </p>
+            <div class="hero-links">
+              <a class="hero-link" href="mailto:susmithayarramsetti321@gmail.com">
+                <i class="fa-regular fa-envelope"></i> Email
+              </a>
+              <a class="hero-link" href="https://github.com/susmitha1201" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a class="hero-link" href="https://www.linkedin.com/in/susmitha-yarramsetti-7a8573259/" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+              </a>
             </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#about" class="nav-link active"><span>01</span> About</a></li>
-                    <li><a href="#education" class="nav-link"><span>02</span> Education</a></li>
-                    <li><a href="#experience" class="nav-link"><span>03</span> Experience</a></li>
-                    <li><a href="#projects" class="nav-link"><span>04</span> Projects</a></li>
-                    <li><a href="#skills" class="nav-link"><span>05</span> Skills</a></li>
-                </ul>
-            </nav>
-            <div class="sidebar-footer">
-                <p>&copy; <span id="current-year"></span> Susmitha Yarramsetti</p>
+            <div class="hero-ctas">
+              <!-- Put your actual resume PDF link here -->
+              <a class="btn btn-primary" href="#" target="_blank" rel="noopener">Download CV</a>
+              <a class="btn btn-ghost" href="#about">Know more</a>
             </div>
-        </aside>
+          </div>
+        </div>
+      </section>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <!-- About Section -->
-            <section id="about" class="section">
-                <h2 class="section-title"><span>01</span>About Me</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p class="intro-text">I'm a passionate <span class="highlight">Information Technology</span> student with expertise in <span class="highlight">full-stack development</span> and <span class="highlight">machine learning</span>.</p>
-                        <p>Currently pursuing my B.Tech at BVRIT Hyderabad College of Engineering for Women, I combine strong technical skills with creative problem-solving to build innovative solutions.</p>
-                        <p>My journey in technology includes web development internships, competitive programming, and building machine learning models with practical applications.</p>
-                        <a href="https://drive.google.com/file/d/1stvVBRj-YSuWNhmU8GNZXglLVgwiGKr5/view?usp=sharing">See Resume </i></a>
-                    </div>
-                </div>
-            </section>
+      <!-- About -->
+      <section id="about" class="section">
+        <h2 class="section-title"><span></span>About Me</h2>
 
-            <!-- Education Section -->
-            <section id="education" class="section">
-                <h2 class="section-title"><span>02</span>Education</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-date">2022 - 2026</div>
-                        <div class="timeline-content">
-                            <h3>B.Tech in Information Technology</h3>
-                            <p class="company">BVRIT Hyderabad College of Engineering For Women</p>
-                            <p class="timeline-detail">CGPA: 8.5</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">2020 - 2022</div>
-                        <div class="timeline-content">
-                            <h3>Intermediate Education</h3>
-                            <p class="company">Narayana Junior College, Vijayawada</p>
-                            <p class="timeline-detail">Board of Intermediate Education, Andhra Pradesh | CGPA: 9.2</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">2019 - 2020</div>
-                        <div class="timeline-content">
-                            <h3>Secondary Education</h3>
-                            <p class="company">Sri Chaitanya Techno School</p>
-                            <p class="timeline-detail">Board of Secondary Education, Andhra Pradesh | CGPA: 10</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <div class="about-text block">
+          <p>
+            Hi! I'm <b>Susmitha</b>, a <b>B.Tech (IT)</b> student at
+            <b>BVRIT Hyderabad College of Engineering for Women</b> (CGPA 8.67),
+            focused on <b>web development</b> and <b>data/ML tooling</b>.
+          </p>
+          <p>
+            I’ve built responsive WordPress sites (Elementor) during my internship at
+            <b>SaralTech</b> and developed ML projects like
+            <b>polymer solubility prediction using LightGBM</b>. I enjoy clean UI,
+            simple interactions, and data-backed features.
+          </p>
+        </div>
 
-            <!-- Experience Section -->
-            <section id="experience" class="section">
-                <h2 class="section-title"><span>03</span>Experience</h2>
-                <div class="experience-container">
-                    <div class="experience-card">
-                        <h3>Web Developer Intern</h3>
-                        <p class="company">SaraITech</p>
-                        <p class="duration">2023 - Present</p>
-                        <ul class="experience-details">
-                            <li>Developed web applications using WordPress, React.js, and JavaScript</li>
-                            <li>Enhanced functionality and integrated APIs for improved user experience</li>
-                            <li>Collaborated with team members on front-end development</li>
-                        </ul>
-                    </div>
-                    <div class="experience-card">
-                        <h3>Mentee</h3>
-                        <p class="company">PwC Launchpad 2025</p>
-                        <p class="duration">2023</p>
-                        <ul class="experience-details">
-                            <li>Engaged in mentorship program covering IT fundamentals</li>
-                            <li>Learned Oracle RDBMS, Java, responsive web design</li>
-                            <li>Explored DevOps and cloud technologies</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+        <div class="about-grid">
+          <div class="about-photo">
+            <img src="profile.png" alt="Susmitha portrait"/>
+          </div>
+          <div class="about-details">
+            <h3>Personal Details</h3>
+            <ul>
+              <li><span class="k">City</span><span class="v">Hyderabad, India</span></li>
+              <li><span class="k">Email</span><span class="v">susmithayarramsetti321@gmail.com</span></li>
+              <li><span class="k">Phone</span><span class="v">+91 9177334729</span></li>
+              <li><span class="k">LinkedIn</span><span class="v"><a href="https://www.linkedin.com/in/susmitha-yarramsetti-7a8573259/" target="_blank" rel="noopener">linkedin.com/in/susmitha-yarramsetti-7a8573259</a></span></li>
+              <li><span class="k">GitHub</span><span class="v"><a href="https://github.com/susmitha1201" target="_blank" rel="noopener">github.com/susmitha1201</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-            <!-- Projects Section -->
-            <section id="projects" class="section">
-                <h2 class="section-title"><span>04</span>Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="project1.png" alt="Gift Whiz Corporate Gifting Platform">
-                            <div class="project-overlay">
-                                <h3>Gift Whiz</h3>
-                                <p>Corporate Gifting Platform</p>
-                                <div class="project-tech">
-                                    <span>Java Spring Boot</span>
-                                    <span>MySQL</span>
-                                    <span>JavaScript</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>E-commerce platform for corporate gifting with backend in Java Spring Boot and MySQL, and frontend in HTML/CSS/JavaScript.</p>
-                            <a href="#" class="project-link">View Details →</a>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="project2.jfif" alt="Euro Diffusion Simulation">
-                            <div class="project-overlay">
-                                <h3>Euro Diffusion</h3>
-                                <p>Simulation Project</p>
-                                <div class="project-tech">
-                                    <span>Python</span>
-                                    <span>Pygame</span>
-                                    <span>PIL</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>Simulated the distribution of euro coins across cities using Python, visualizing exchanges and tracking completion status.</p>
-                            <a href="#" class="project-link">View Details →</a>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="project3.jfif" alt="Polymer Prediction">
-                            <div class="project-overlay">
-                                <h3>Polymer Prediction</h3>
-                                <p>Machine Learning Model</p>
-                                <div class="project-tech">
-                                    <span>XGBoost</span>
-                                    <span>LightGBM</span>
-                                    <span>Python</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <p>Developed ML model to predict polymer solubility in solvents using Random Forest classifier with 82% accuracy.</p>
-                            <a href="#" class="project-link">View Details →</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2 class="section-title"><span></span>Skills</h2>
 
-            <!-- Skills Section -->
-            <section id="skills" class="section">
-                <h2 class="section-title"><span>05</span>Skills</h2>
-                <div class="skills-container">
-                    <div class="skills-category">
-                        <h3>Programming Languages</h3>
-                        <ul class="skills-list">
-                            <li>
-                                <span class="skill-name">Java (DSA)</span>
-                                <div class="skill-meter">
-                                    <div class="skill-level" style="width: 90%"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="skill-name">Python</span>
-                                <div class="skill-meter">
-                                    <div class="skill-level" style="width: 85%"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="skill-name">C</span>
-                                <div class="skill-meter">
-                                    <div class="skill-level" style="width: 80%"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="skill-name">C++</span>
-                                <div class="skill-meter">
-                                    <div class="skill-level" style="width: 70%"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="skills-category">
-                        <h3>Web Development</h3>
-                        <ul class="skills-list">
-                            <li>
-                                <span class="skill-name">HTML/CSS</span>
-                                <div class="skill-meter">
-                                    <div class="skill-level" style="width: 90%"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="skill-name">JavaScript</span>
-                                <div class="skill-meter">
-                                    <div class="skill-level" style="width: 85%"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="skill-name">React.js</span>
-                                <div class="skill-meter">
-                                    <div class="skill-level" style="width: 80%"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="skill-name">WordPress</span>
-                                <div class="skill-meter">
-                                    <div class="skill-level" style="width: 75%"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="skills-category">
-                        <h3>Tools & Frameworks</h3>
-                        <div class="tools-grid">
-                            <div class="tool-item">
-                                <i class="fab fa-java"></i>
-                                <span>Spring Boot</span>
-                            </div>
-                            <div class="tool-item">
-                                <i class="fas fa-database"></i>
-                                <span>MySQL</span>
-                            </div>
-                            <div class="tool-item">
-                                <i class="fab fa-python"></i>
-                                <span>XGBoost</span>
-                            </div>
-                            <div class="tool-item">
-                                <i class="fas fa-robot"></i>
-                                <span>LightGBM</span>
-                            </div>
-                            <div class="tool-item">
-                                <i class="fas fa-code"></i>
-                                <span>VS Code</span>
-                            </div>
-                            <div class="tool-item">
-                                <i class="fas fa-cogs"></i>
-                                <span>Eclipse</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="certifications">
-                    <h3>Certifications</h3>
-                    <ul class="cert-list">
-                        <li>Java Fullstack Developer by SmartMieten Tech</li>
-                        <li>Java Fullstack Developer by SkillDzire</li>
-                        <li>Data Structures & Algorithms by Smart Interviews</li>
-                    </ul>
-                </div>
-            </section>
-        </main>
-    </div>
+        <div class="skills-container">
+          <div class="skills-category">
+            <h3>Programming Languages</h3>
+            <ul class="skills-list">
+              <li>
+                <span class="skill-name">Python</span>
+                <div class="skill-meter"><div class="skill-level" style="width: 85%"></div></div>
+              </li>
+              <li>
+                <span class="skill-name">Java (with DSA)</span>
+                <div class="skill-meter"><div class="skill-level" style="width: 80%"></div></div>
+              </li>
+              <li>
+                <span class="skill-name">C / C++</span>
+                <div class="skill-meter"><div class="skill-level" style="width: 70%"></div></div>
+              </li>
+              <li>
+                <span class="skill-name">SQL</span>
+                <div class="skill-meter"><div class="skill-level" style="width: 80%"></div></div>
+              </li>
+            </ul>
+          </div>
 
-    <script src="script.js"></script>
+          <div class="skills-category">
+            <h3>Data & ML</h3>
+            <ul class="skills-list">
+              <li>
+                <span class="skill-name">pandas, NumPy, Matplotlib</span>
+                <div class="skill-meter"><div class="skill-level" style="width: 85%"></div></div>
+              </li>
+              <li>
+                <span class="skill-name">LightGBM, scikit-learn</span>
+                <div class="skill-meter"><div class="skill-level" style="width: 80%"></div></div>
+              </li>
+              <li>
+                <span class="skill-name">EDA & Feature Engineering</span>
+                <div class="skill-meter"><div class="skill-level" style="width: 75%"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skills-category">
+            <h3>Tools & Platforms</h3>
+            <div class="tools-grid">
+              <div class="tool-item"><i class="fas fa-table"></i><span>Excel</span></div>
+              <div class="tool-item"><i class="fas fa-chart-line"></i><span>Power BI</span></div>
+              <div class="tool-item"><i class="fas fa-chart-pie"></i><span>Tableau</span></div>
+              <div class="tool-item"><i class="fas fa-database"></i><span>MySQL</span></div>
+              <div class="tool-item"><i class="fas fa-code"></i><span>VS Code</span></div>
+              <div class="tool-item"><i class="fas fa-terminal"></i><span>Jupyter/Colab</span></div>
+              <div class="tool-item"><i class="fab fa-html5"></i><span>HTML/CSS/JS</span></div>
+              <div class="tool-item"><i class="fas fa-leaf"></i><span>LightGBM</span></div>
+              <div class="tool-item"><i class="fab fa-wordpress"></i><span>WordPress/Elementor</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2 class="section-title"><span></span>Projects</h2>
+
+        <div class="projects-grid">
+          <!-- GiftWhiz -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="project1.png" alt="GiftWhiz – Corporate Gifting Platform"/>
+              <div class="project-overlay">
+                <h3>GiftWhiz – Corporate Gifting</h3>
+                <p>Full Stack Development</p>
+                <div class="project-tech">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                  <span>Spring Boot</span><span>MySQL</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <p>Full-stack web app to streamline business gift selections: product listing, search, and basic admin workflows.</p>
+              <a href="https://github.com/susmitha1201/GiftWhiz" class="project-link" target="_blank" rel="noopener">View Repo →</a>
+            </div>
+          </div>
+
+          <!-- Polymer Prediction -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="project3.png" alt="Polymer Prediction Using LightGBM"/>
+              <div class="project-overlay">
+                <h3>Polymer Solubility Prediction</h3>
+                <p>Machine Learning</p>
+                <div class="project-tech">
+                  <span>LightGBM</span><span>scikit-learn</span><span>Python</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <p>LightGBM regression pipeline estimating polymer solubility; feature engineering and tuning for improved accuracy.</p>
+              <a href="https://github.com/susmitha1201/MINI_PROJECT" class="project-link" target="_blank" rel="noopener">View Repo →</a>
+            </div>
+          </div>
+
+          <!-- Elite Startup Club -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="elite.png" alt="Elite Startup Club Website"/>
+              <div class="project-overlay">
+                <h3>Elite Startup Club Website</h3>
+                <p>WordPress & Elementor</p>
+                <div class="project-tech">
+                  <span>WordPress</span><span>Elementor</span><span>CMS</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <p>Built responsive pages (Home, About, Services, Events, Contact) with interactive elements for engagement.</p>
+              <a href="https://www.elitestartup.club/" class="project-link" target="_blank" rel="noopener">Live Site →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section">
+        <h2 class="section-title"><span></span>Experience</h2>
+
+        <div class="experience-container">
+          <div class="experience-card">
+            <h3>Web Development Intern</h3>
+            <span class="company">SaralTech</span>
+            <span class="duration">Feb 2025 – Jun 2025</span>
+            <ul class="experience-details">
+              <li>Developed modular, responsive pages in WordPress (Elementor); improved UX and consistency.</li>
+              <li>Implemented features for Automation, Algo Trading, Commerce, and Events modules.</li>
+              <li>Collaborated on the Elite Startup Club website; ensured seamless UI integration.</li>
+            </ul>
+          </div>
+
+          <div class="experience-card">
+            <h3>Mentee</h3>
+            <span class="company">PwC Launchpad 2025 Program</span>
+            <span class="duration">Feb 2025 – Jul 2025</span>
+            <ul class="experience-details">
+              <li>Selected for a competitive 6-month mentorship focused on core IT practices.</li>
+              <li>Hands-on exposure to Oracle RDBMS, Java, responsive web design, DevOps, and cloud fundamentals.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="section">
+        <h2 class="section-title"><span></span>Education</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Nov 2022 – Jul 2026</div>
+            <div class="timeline-content">
+              <h3>B.Tech in Information Technology (CGPA: 8.67)</h3>
+              <span class="company">BVRIT Hyderabad College of Engineering for Women — Hyderabad, Telangana</span>
+              <p class="timeline-detail">Coursework & projects in programming, web development, and ML.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Aug 2020 – Apr 2022</div>
+            <div class="timeline-content">
+              <h3>Intermediate — 92.7%</h3>
+              <span class="company">Narayana Junior College — Vijayawada, Andhra Pradesh</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Jun 2019 – Apr 2020</div>
+            <div class="timeline-content">
+              <h3>Secondary School — 98.67%</h3>
+              <span class="company">Sri Chaitanya Techno School — Amalapuram, Andhra Pradesh</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section id="certs" class="section">
+        <h2 class="section-title"><span></span>Certifications</h2>
+
+        <div class="certifications">
+          <h3>Certified Courses</h3>
+          <ul class="cert-list">
+            <li>Java Fullstack Developer — SmartMieten Tech (Jun 2024)</li>
+            <li>DSA — Smart Interviews (Sep 2024)</li>
+            <li>Web Development — IBM (Nov 2023)</li>
+            <li>Principles of Generative AI — Infosys (Jul 2025)</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact-section">
+        <h2 class="section-title"><span></span>Contact</h2>
+
+        <div class="contact-container">
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-regular fa-envelope"></i></div>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:susmithayarramsetti321@gmail.com" class="contact-link">susmithayarramsetti321@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/susmitha-yarramsetti-7a8573259/"
+                      target="_blank" rel="noopener" class="contact-link">
+                  linkedin.com/in/susmitha-yarramsetti-7a8573259
+                </a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/susmitha1201" target="_blank" rel="noopener" class="contact-link">
+                  github.com/susmitha1201
+                </a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-quote">
+            <p><em>“Consistent learning and clean execution.”</em></p>
+          </div>
+
+          <div class="contact-social">
+            <a href="https://www.linkedin.com/in/susmitha-yarramsetti-7a8573259/" target="_blank" rel="noopener" class="social-round" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

@@ -75,13 +75,12 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('load', animateOnScroll);
     window.addEventListener('scroll', animateOnScroll);
     
-    // Download resume button functionality
-    const downloadBtn = document.querySelector('.download-resume');
+    // Download resume button functionality (replace '#' with your actual PDF)
+    const downloadBtn = document.querySelector('.btn.btn-primary[href="#"]');
     if (downloadBtn) {
         downloadBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            // Here you would typically link to your actual resume PDF
-            alert('Resume download would start here. Replace with your actual resume file.');
+            alert('Add your resume PDF link to the "Download CV" button.');
         });
     }
 });
